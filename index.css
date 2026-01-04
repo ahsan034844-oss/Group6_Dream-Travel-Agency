@@ -1,0 +1,247 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================= BODY ================= */
+body {
+    overflow-x: hidden;
+    background: #fefefe;
+    scroll-behavior: smooth;
+}
+
+/* ================= HEADER ================= */
+.home {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                url("https://media.istockphoto.com/id/610041376/photo/beautiful-sunrise-over-the-sea.jpg?s=612x612&w=0&k=20&c=R3Tcc6HKc1ixPrBc7qXvXFCicm8jLMMlT99MfmchLNA=")
+                center/cover no-repeat;
+    min-height: 100vh;
+    color: #fff;
+    position: relative;
+}
+
+/* ================= NAV BAR ================= */
+.content {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    width: 110px;
+}
+
+nav {
+    margin-left: auto;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 50px;
+    background: linear-gradient(135deg,#ff4a91,#6b32ff);
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    transform: scale(1.08);
+    background: linear-gradient(135deg,#6b32ff,#ff4a91);
+}
+
+/* ================= HERO ================= */
+.hero {
+    text-align: center;
+    padding: 100px 20px 60px;
+}
+
+.hero h1 {
+    font-size: 3.8rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-top: 15px;
+    color: #ffe;
+}
+
+.hero-btn {
+    margin-top: 45px;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    background: linear-gradient(45deg,#ffd700,#ff6347);
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    transform: translateY(-5px);
+}
+
+/* ================= HERO IMAGE ================= */
+.girl-image {
+    position: absolute;
+    width: 340px;
+    bottom: 0;
+    right: 0;
+    animation: moveup 2s forwards;
+}
+
+@keyframes moveup {
+    from { transform: translateY(60px); opacity: 0; }
+    to   { transform: translateY(0); opacity: 1; }
+}
+
+/* ================= MAIN ================= */
+main {
+    background: #f0f4f8;
+}
+
+/* ================= ABOUT ================= */
+.About-us {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.About-us h2 {
+    font-size: 3rem;
+    color: #ff4a91;
+    margin-bottom: 25px;
+}
+
+.About-us p {
+    font-size: 1.15rem;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* ================= FEATURES ================= */
+.best-agency {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 50px;
+}
+
+.best-agency figure {
+    text-align: center;
+    transition: 0.3s;
+}
+
+.best-agency figure:hover {
+    transform: translateY(-10px);
+}
+
+.best-agency img {
+    width: 85px;
+    margin-bottom: 12px;
+}
+
+/* ================= SERVICES ================= */
+.Also-us {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(135deg,#6b32ff,#ff4a91);
+    padding: 80px 20px;
+    color: #fff;
+}
+
+.Also-us .Global {
+    flex: 1 1 260px;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(6px);
+    transition: 0.3s;
+}
+
+.Also-us .Global:hover {
+    transform: translateY(-10px);
+}
+
+/* ================= MAP ================= */
+.map {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* ================= FOOTER ================= */
+.foot {
+    background: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.foot a {
+    color: #ff4a91;
+    text-decoration: none;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* TABLET */
+@media(max-width:1024px){
+    .hero h1 { font-size: 3rem; }
+    .girl-image { width: 280px; }
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    .content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 90%;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .girl-image {
+        display: none;
+    }
+
+    .About-us h2 {
+        font-size: 2rem;
+    }
+}
+
+/* SMALL MOBILE */
+@media(max-width:480px){
+    .hero h1 { font-size: 2rem; }
+    .hero-btn { padding: 14px 30px; }
+    .About-us p { font-size: 1rem; }
+}
