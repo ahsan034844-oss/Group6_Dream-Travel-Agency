@@ -38,7 +38,7 @@ Run the index.html file in any web browser
 
 [Excel File](https://github.com/ahsan034844-oss/Group6_Dream-Travel-Agency/blob/7663a07cf3fe7dee422d759e198686bde8ed6eb6/website%20exell.xlsx)
 
-[PPT](<../https://github.com/ahsan034844-oss/Group6_Dream-Travel-Agency/blob/main/website%20presentation.pptx>)
+[PPT](https://github.com/ahsan034844-oss/Group6_Dream-Travel-Agency/blob/5ddc352598329359c31512fd593ee844b7763eec/website%20presentation.pptx)
 
 [Word File](https://github.com/ahsan034844-oss/Group6_Dream-Travel-Agency/blob/b724948b4673677d5890cb82b5f7a1bcb93032cd/website%20document.docx)
 
