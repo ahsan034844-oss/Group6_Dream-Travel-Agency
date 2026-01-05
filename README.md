@@ -40,7 +40,7 @@ Run the index.html file in any web browser
 
 [PPT](<../https://github.com/ahsan034844-oss/Group6_Dream-Travel-Agency/blob/main/website%20presentation.pptx>)
 
-[Word File](<../https://github.com/ahsan034844-oss/Group6_Dream-Travel-Agency/blob/main/website%20document.docx>)
+[Word File](https://github.com/ahsan034844-oss/Group6_Dream-Travel-Agency/blob/b724948b4673677d5890cb82b5f7a1bcb93032cd/website%20document.docx)
 
 ## Contributors
 
