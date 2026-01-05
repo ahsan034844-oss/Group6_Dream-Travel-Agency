@@ -36,7 +36,7 @@ Open the project folder
 
 Run the index.html file in any web browser
 
-[Excel File](<../https://github.com/ahsan034844-oss/Group6_Dream-Travel-Agency/blob/main/website%20exell.xlsx>)
+[Excel File](https://github.com/ahsan034844-oss/Group6_Dream-Travel-Agency/blob/7663a07cf3fe7dee422d759e198686bde8ed6eb6/website%20exell.xlsx)
 
 [PPT](<../https://github.com/ahsan034844-oss/Group6_Dream-Travel-Agency/blob/main/website%20presentation.pptx>)
 
