@@ -1,4 +1,3 @@
-/* ================= RESET ================= */
 * {
     margin: 0;
     padding: 0;
@@ -6,24 +5,24 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* ================= BODY ================= */
+
 body {
     overflow-x: hidden;
     background: #fefefe;
     scroll-behavior: smooth;
 }
 
-/* ================= HEADER ================= */
+
 .home {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-                url("https://media.istockphoto.com/id/610041376/photo/beautiful-sunrise-over-the-sea.jpg?s=612x612&w=0&k=20&c=R3Tcc6HKc1ixPrBc7qXvXFCicm8jLMMlT99MfmchLNA=")
+                url("mainbg.png")
                 center/cover no-repeat;
     min-height: 100vh;
     color: #fff;
     position: relative;
 }
 
-/* ================= NAV BAR ================= */
+
 .content {
     display: flex;
     align-items: center;
@@ -55,7 +54,7 @@ nav a:hover {
     background: linear-gradient(135deg,#6b32ff,#ff4a91);
 }
 
-/* ================= HERO ================= */
+
 .hero {
     text-align: center;
     padding: 100px 20px 60px;
@@ -88,7 +87,7 @@ nav a:hover {
     transform: translateY(-5px);
 }
 
-/* ================= HERO IMAGE ================= */
+
 .girl-image {
     position: absolute;
     width: 340px;
@@ -102,12 +101,11 @@ nav a:hover {
     to   { transform: translateY(0); opacity: 1; }
 }
 
-/* ================= MAIN ================= */
 main {
     background: #f0f4f8;
 }
 
-/* ================= ABOUT ================= */
+
 .About-us {
     padding: 80px 20px;
     text-align: center;
@@ -127,7 +125,7 @@ main {
     color: #333;
 }
 
-/* ================= FEATURES ================= */
+
 .best-agency {
     display: flex;
     justify-content: center;
@@ -150,7 +148,7 @@ main {
     margin-bottom: 12px;
 }
 
-/* ================= SERVICES ================= */
+
 .Also-us {
     display: flex;
     justify-content: space-around;
@@ -174,7 +172,7 @@ main {
     transform: translateY(-10px);
 }
 
-/* ================= MAP ================= */
+
 .map {
     width: 90%;
     max-width: 1000px;
@@ -183,7 +181,6 @@ main {
     overflow: hidden;
 }
 
-/* ================= FOOTER ================= */
 .foot {
     background: #1f1f1f;
     color: #fff;
@@ -196,7 +193,7 @@ main {
     text-decoration: none;
 }
 
-/* ================= RESPONSIVE ================= */
+
 
 /* TABLET */
 @media(max-width:1024px){
@@ -239,7 +236,7 @@ main {
     }
 }
 
-/* SMALL MOBILE */
+
 @media(max-width:480px){
     .hero h1 { font-size: 2rem; }
     .hero-btn { padding: 14px 30px; }
